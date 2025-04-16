@@ -1,0 +1,421 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  gap: 40px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-second {
+  width: 850px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg {
+  background-color: white;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.basic {
+  width: 850px;
+}
+
+.side-bar {
+  width: 290px;
+}
+
+.content {
+  background-color: white;
+  padding: 25px 10px;
+  height: 135px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.content h2 {
+  font-family: "Gotham Pro";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid #f4f4f4;
+}
+
+.for-input {
+  width: 750px;
+  height: 50px;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
+input ::placeholder {
+  font-family: "Gotham Pro";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.input-button-box {
+  position: absolute;
+  right: 26px;
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input-button {
+  border: none;
+}
+
+.select {
+  margin: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select p,
+.select p span {
+  font-family: "Gotham Pro";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pub-header p,
+.pub-header a {
+  font-family: "Gotham Pro";
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.pub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0 0;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.div-dot {
+  background-color: #181818;
+  border: 2px solid #181818;
+  border-radius: 50%;
+}
+
+.publications hr {
+  margin: 15px 0;
+}
+
+.about-user {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 15px;
+}
+
+.about-user h3 {
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 15px 0 0;
+}
+
+.for-name p {
+  font-family: "Gotham Pro";
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.public {
+  width: 790px;
+  margin: 15px 0 20px;
+}
+
+.public p {
+  font-family: "Gotham Pro";
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.user a {
+  font-family: "Gotham Pro";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin: 15px 0 20px;
+}
+
+.for-the-rest {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #f4f4f4;
+  padding: 15px 0;
+  margin: 20px 0 0;
+  font-family: "Gotham Pro";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.for-like-comment {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.like,
+.comment,
+.for-share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.second-user {
+  margin: 20px 0;
+}
+
+.public p {
+  margin: 15px 0;
+}
+
+aside {
+  margin: 50px 0 0;
+}
+
+.about-me {
+  position: relative;
+  display: block;
+  padding: 0 0 25px;
+  text-align: center;
+}
+
+.about-me .ava {
+  z-index: 1;
+  position: absolute;
+  top: 70px;
+  left: 95px;
+}
+
+.about-me h3 {
+  margin: 76px 0 10px;
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.about-me p {
+  margin: 0 auto;
+  width: 240px;
+  text-align: center;
+  font-family: "Gotham Pro";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.button {
+  margin: 20px 0 0;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-child {
+  background-color: #0077b5;
+  width: 230px;
+  height: 32px;
+  border-radius: 4px;
+  color: white;
+  font-family: Gotham Pro;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-child:hover {
+  transition: 0.8s;
+  background-color: #005f92;
+  cursor: pointer;
+}
+
+.container-for-sd {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.group-list {
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.group-list .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-list .header .group-h3 {
+  font-family: "Gotham Pro";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.group-list .header .header-h3 {
+  font-family: "Gotham Pro";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #0275b1;
+}
+
+.group-list hr {
+  margin: 20px 0;
+  border: 1px solid #f4f4f4;
+}
+
+.group-list-item {
+  display: flex;
+  gap: 15px;
+  padding: 14px 0 12px 0;
+  margin-bottom: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 6px;
+}
+
+.group-list a {
+  font-family: "Gotham Pro";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #0275b1;
+}
+
+.followed-hashtags {
+  margin: 20px 0 0;
+  padding: 25px 0 30px;
+}
+
+.followed-hashtags h3 {
+  font-family: Gotham Pro;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.followed-hashtags hr {
+  margin: 20px 0;
+  border: 1px solid #f4f4f4;
+}
+
+.fh-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.fh-item {
+  font-family: 'Gotham Pro';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  background-color: #e9f0f8;
+  color: #181818;
+  padding: 7px 14px;
+  border-radius: 4px;
+  display: inline-block;
+  white-space: nowrap;  
+}
+
+.fh-item:hover {
+  transition: 0.8s;
+  background-color: #d8eafc;
+  cursor: pointer;
+}
